@@ -276,9 +276,7 @@ section {
 	margin-bottom: 0%;
 }
 
-.start-btn {
-	width: 16%;
-}
+.start-btn {width: 16%;}
 
 
 .clicks{
@@ -286,9 +284,7 @@ section {
 	font-size: 250%;
 }
 
-.container-card {
-	height: 120px;
-}
+.container-card {height: 120px;}
 
 h1 {font-size: 300%;}
 
@@ -296,23 +292,15 @@ h1 {font-size: 300%;}
 
 /*Large Phones  to small tablets*/
 @media only screen and (min-width: 481px) and (max-width: 767px) {
-.total-clicks>h4 {
-	font-size: 75%;
-}
+.total-clicks>h4 {font-size: 75%;}
 
-.clicks{
-	font-size: 160%;
-}
+.clicks{font-size: 160%;}
 
-.container-card {
-	height: 87px;
-}
+.container-card {height: 87px;}
 
 h1 {font-size: 250%;}
 
-.start-btn {
-	width: 20%;
-}
+.start-btn {width: 20%;}
 
 .highest-score {
 	font-size: 250%;
@@ -320,25 +308,26 @@ h1 {font-size: 250%;}
 	height: 65px;
 }
 
-.game-over img {
-	height: 160px;
-}
+.game-over img {height: 160px;}
 
 h4 {font-size: 95%;}
 
 #replay {font-size: 110%;}
 
-#game-table {
-margin-left: 4%;
-}
+#game-table {margin-left: 4%;}
+
 }
 
 /*Small Phones */
 @media only screen and (max-width: 480px) {
-	h1 {font-size: 170%;}
-	h2 {font-size: 120%;}
-	.start-btn {
-	width: 22%;
+h1 {font-size: 170%;}
+
+h2 {font-size: 120%;}
+
+h4 {font-size: 90%;}
+
+.start-btn {
+	width: 27%;
 	font-size: 120%;
 }
 
@@ -346,32 +335,37 @@ margin-left: 4%;
 	font-size: 230%;
 	width: 100px;
 	height: 60px;
-	}
-	.container-card {
-	height: 70px;
 }
 
-section {
-	display: block;
-}
+.container-card {height: 70px;}
+
+section {display: block;}
 
 .total-clicks {
 	margin: 0 auto;
 	width: 52%;
 }
 
-.total-clicks>h4 {
-	font-size: 110%;
-}
+.total-clicks>h4 {font-size: 110%;}
 
-.clicks{
-	font-size: 200%;
-}
+.clicks{font-size: 200%;}
 
 #game-table {
     width: 100%;
     margin-left: 0.5%;
-    }
+  }
+
+.game-over {
+	height: 73%;
+	margin: 1% 12%;
+}
+
+.game-over img {
+	height: 120px;
+	margin: 0 5%;
+}
+
+#replay {font-size: 95%;}
 
 }
 
