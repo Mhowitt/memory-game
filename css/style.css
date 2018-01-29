@@ -23,12 +23,13 @@ html {
 /* --------------------------------------------------- */
 body {background-color: #ffdfaa; /*#ffd999*/}
 
-header {margin-bottom: 20%;}
+header {margin-bottom: 10%;
+height: 615px;}
 
 .main-cont {
 	padding-left: 1%;
 	padding-right: 1%;
-	margin-top: 0.5%;
+	margin-top: 5%;
 	margin-right:1%; 
 	margin-left:1%;
 	margin-bottom: 1%;
@@ -61,7 +62,7 @@ h1, h2, h4, #replay {
 
 
 .start-btn {
-	width: 14%;
+	width: 20%;
 	height: 20%;
 	cursor:pointer;
 	font-size: 150%;
@@ -107,6 +108,7 @@ section {
 	display: flex;
 	margin-bottom: 5%;
 	position:  relative;
+	height: 100vh;
 }
 
 #game-table {
@@ -177,6 +179,7 @@ section {
 	width: 15.5%;
 	/*margin-top: 0.2%;*/
 	margin: 0.5%;
+	border: 1px solid #ffdfaa;
 	position: relative;
 	cursor: pointer;
 	-webkit-perspective: 800px;
@@ -238,7 +241,6 @@ section {
 
 .total-clicks>h4 {
 	font-size: 115%;
-	border-bottom: 2px solid black;
 	margin-bottom: 0.5%;
 
 }
@@ -276,7 +278,7 @@ section {
 	margin-bottom: 0%;
 }
 
-.start-btn {width: 16%;}
+.start-btn {width: 20%;}
 
 
 .clicks{
@@ -284,9 +286,7 @@ section {
 	font-size: 250%;
 }
 
-.container-card {
-	height: 120px;
-}
+.container-card {height: 120px;}
 
 h1 {font-size: 300%;}
 
@@ -294,15 +294,29 @@ h1 {font-size: 300%;}
 
 /*Large Phones  to small tablets*/
 @media only screen and (min-width: 481px) and (max-width: 767px) {
-.total-clicks>h4 {font-size: 75%;}
+.total-clicks>h4 {
+	font-size: 100%;
+	border-bottom: 2px solid black;
+}
 
 .clicks{font-size: 160%;}
 
-.container-card {height: 87px;}
+.total-clicks {
+	margin: 0 auto;
+	width: 23%;
+}
+
+.container-card {
+	height: 140px;
+	width: 23.5%;
+}
 
 h1 {font-size: 250%;}
 
-.start-btn {width: 20%;}
+.start-btn {
+	width: 25%;
+	margin-top: 15%;
+	margin-bottom: 15%;}
 
 .highest-score {
 	font-size: 250%;
@@ -310,7 +324,13 @@ h1 {font-size: 250%;}
 	height: 65px;
 }
 
+section {display: block;}
+
 .game-over img {height: 160px;}
+.game-over {
+	height: 350px;
+	margin: 40% 12%;
+}
 
 h4 {font-size: 95%;}
 
@@ -324,9 +344,11 @@ h4 {font-size: 95%;}
 h1 {font-size: 170%;}
 h2 {font-size: 120%;}
 h4 {font-size: 90%;}
-
+header {margin-bottom: 25%;}
 .start-btn {
-	width: 27%;
+	width: 30%;
+	margin-top: 35%;
+	margin-bottom: 35%;
 	font-size: 120%;
 }
 
@@ -335,7 +357,9 @@ h4 {font-size: 90%;}
 	width: 100px;
 	height: 60px;
 }
-.container-card {height: 70px;}
+.container-card {
+	height: 110px;
+	width: 31%;}
 
 section {
 	display: block;
@@ -343,11 +367,12 @@ section {
 
 .total-clicks {
 	margin: 0 auto;
-	width: 52%;
+	width: 42%;
 }
 
 .total-clicks>h4 {
 	font-size: 110%;
+	border-bottom: 2px solid black;
 }
 
 .clicks{
@@ -360,13 +385,13 @@ section {
  }
 
 .game-over {
-	height: 73%;
-	margin: 1% 12%;
+	height: 350px;
+	margin: 90% 12%;
 }
 
 .game-over img {
 	height: 120px;
-	margin: 0 5%;
+	margin: 3% 2%;
 }
 
 #replay {font-size: 95%;}
