@@ -106,7 +106,6 @@ section {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	margin-bottom: 5%;
 	position:  relative;
 	height: 100vh;
 }
